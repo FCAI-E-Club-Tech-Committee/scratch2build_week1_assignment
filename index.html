@@ -3,9 +3,76 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FCAI Activity Portal</title>
+  <title>Personal Portfolio</title>
   </head>
   <body>
-    <!-- Write your code here -->
-  </body>
+  <header>
+    <h1>Sohila Ahmed</h1>
+    <p>Software Engineer / Web Developer</p>
+    <nav>
+      <a href="#about">About</a> |
+      <a href="#projects">Projects</a> |
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I am a passionate web developer participant in Scratch2Build. My goal is to build accessible and modern web applications.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <article>
+        <h3>Project 1: E-Commerce Store</h3>
+        <p>A responsive online shopping platform built using modern HTML and CSS.</p>
+        <a href="https://github.com" target="_blank">View Project</a>
+      </article>
+
+      <article>
+        <h3>Project 2: Weather App</h3>
+        <p>A web application that displays real-time weather information using an API.</p>
+        <a href="https://github.com" target="_blank">View Project</a>
+      </article>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form>
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div>
+          <label for="subject">Subject:</label>
+          <input type="text" id="subject" name="subject" required>
+        </div>
+
+        <div>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Sohila Ahmed. All rights reserved.</p>
+    <nav>
+      <a href="https://github.com" target="_blank">GitHub</a> |
+      <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+    </nav>
+  </footer>
+
+</body>
 </html>
